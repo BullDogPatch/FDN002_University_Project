@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: #060b26;
+  color: white;
+  /* margin: 0px 20px; */
+}
+
+.social-links-div {
+  margin-left: 20px;
+}
+
+.footer-links {
+  color: white;
+  margin: 10px;
+}
+
+small {
+  padding-right: 20px;
+}
+
+.about {
+  color: white;
+  text-decoration: none;
+}
