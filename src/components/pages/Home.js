@@ -6,10 +6,10 @@ const Home = () => {
     <>
       <div className="container">
         <h1>Home</h1>
-        <img
+        {/* <img
           src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=200&w=200"
           alt=""
-        />
+        /> */}
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
           cumque in asperiores obcaecati voluptates? Laborum quod velit harum
@@ -21,7 +21,7 @@ const Home = () => {
           necessitatibus earum?
         </p>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

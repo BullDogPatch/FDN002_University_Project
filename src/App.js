@@ -5,6 +5,7 @@ import Home from "./components/pages/Home";
 import UseCases from "./components/pages/UseCases";
 import MyDegreeSubject from "./components/pages/MyDegreeSubject";
 import About from "./components/pages/About";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/about" component={About} />
           </Switch>
         </div>
+        <Footer />
       </Router>
     </>
   );
