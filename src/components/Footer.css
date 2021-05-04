@@ -18,11 +18,32 @@
 .footer-links {
   color: white;
   margin: 6px;
-  font-size: 2rem;
+  font-size: 1.2rem;
   text-decoration: none;
 }
 
 .footer-links:hover {
+  color: yellow;
+}
+
+.footer-links-container {
+  display: flex;
+  flex-direction: column;
+  /* padding-left: 20px 30px 20px 30px; */
+}
+
+.footer-routes {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: left;
+  line-height: 1;
+  margin-top: 10px;
+  padding-left: 20px;
+  /* font-weight: bold; */
+}
+
+.footer-routes:hover {
   color: yellow;
 }
 

@@ -10,6 +10,17 @@ import { FaLinkedin, FaFacebookSquare, FaTwitterSquare } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="footer">
+      <div className="footer-links-container">
+        <Link to="/about" className="footer-routes">
+          About
+        </Link>
+        <Link to="/references" className="footer-routes">
+          References
+        </Link>
+        <Link to="/cv" className="footer-routes">
+          My CV
+        </Link>
+      </div>
       <div className="social-links-div">
         <a
           href="https://www.linkedin.com/in/craig-clayton-87a155196/"
@@ -29,11 +40,7 @@ const Footer = () => {
           <FaTwitterSquare />
         </a>
       </div>
-      <div>
-        <Link to="/about" className="footer-links">
-          About
-        </Link>
-      </div>
+
       <small>&copy; Craig Clayton 2021</small>
     </div>
   );

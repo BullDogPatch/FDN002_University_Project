@@ -35,7 +35,7 @@ const Navbar = () => {
             <li className="nav-item">
               <NavLink
                 exact
-                to="/references"
+                to="/degree-subject"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
@@ -51,18 +51,18 @@ const Navbar = () => {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Three Amazing Use Cases
+                Amazing Use Cases
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
                 exact
-                to="/about"
+                to="/technical-challenges"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
-                About
+                Technical Challenges
               </NavLink>
             </li>
           </ul>

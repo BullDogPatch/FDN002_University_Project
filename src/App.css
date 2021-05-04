@@ -5,10 +5,13 @@
   font-family: "Lato", sans-serif;
 }
 
+#root {
+  width: 100%;
+}
+
 body {
   background-color: #fff;
   display: flex;
-  flex-direction: column;
   min-height: 100vh;
   position: relative;
 }
@@ -16,12 +19,12 @@ body {
 .pages {
   color: #464747;
   text-align: center;
-  font-size: 2rem;
-  margin-top: 10%;
+  margin-top: 70px;
   line-height: 1.5;
 }
 
 .container {
   margin: auto;
   width: 80%;
+  /* min-height: 100vh; */
 }
