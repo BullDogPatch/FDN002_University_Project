@@ -1,4 +1,3 @@
-import Footer from "../Footer";
 import "./Home.css";
 
 const Home = () => {

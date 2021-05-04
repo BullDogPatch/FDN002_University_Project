@@ -25,6 +25,7 @@ const Footer = () => {
         <a
           href="https://www.linkedin.com/in/craig-clayton-87a155196/"
           target="_blank"
+          rel="noopener noreferrer"
           className="footer-links"
         >
           <FaLinkedin />
@@ -32,11 +33,17 @@ const Footer = () => {
         <a
           href="https://www.facebook.com/craig.clayton.9809"
           target="_blank"
+          rel="noopener noreferrer"
           className="footer-links"
         >
           <FaFacebookSquare />
         </a>
-        <a href="www.twitter.com" target="_blank" className="footer-links">
+        <a
+          href="www.twitter.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footer-links"
+        >
           <FaTwitterSquare />
         </a>
       </div>
