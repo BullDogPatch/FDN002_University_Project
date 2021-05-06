@@ -9,3 +9,14 @@
 img {
   padding: 30px;
 }
+
+.goto-page-links {
+  color: #464747;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.goto-page-links:hover {
+  text-decoration: underline;
+  color: blue;
+}
