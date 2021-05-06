@@ -1,5 +1,5 @@
 .heading {
-  margin: 30px;
+  margin: 15px;
   font-size: 3.3rem;
 }
 
@@ -8,5 +8,32 @@ p {
 }
 
 .img-container {
-  padding-bottom: 100px;
+  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.image {
+  max-width: 100%;
+  padding: 30px;
+}
+
+.push {
+  height: 200px;
+}
+
+@media screen and (max-width: 960px) {
+  .heading {
+    margin: 20px;
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  /* main {
+    display: flex;
+    flex-direction: column;
+  } */
 }

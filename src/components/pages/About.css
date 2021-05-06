@@ -1,0 +1,49 @@
+.about-page {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.profile-pic-div {
+  width: auto;
+  margin: 0 auto;
+}
+
+img .profile-pic {
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  border-radius: 10%;
+  padding: 0px 30px;
+}
+
+.about-info-div {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.about-page p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  padding: 1rem 2rem;
+}
+
+.about-page h2 {
+  text-align: center;
+}
+
+.back-home-link {
+  margin: 100px;
+}
+
+.back-home-link a {
+  text-decoration: none;
+  color: #464747;
+  font-size: 1.8rem;
+}
+
+.back-home-link a:hover {
+  color: blue;
+  text-decoration: underline;
+}

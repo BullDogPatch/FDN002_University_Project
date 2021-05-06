@@ -12,9 +12,11 @@ import CV from "./components/pages/CV";
 
 function App() {
   return (
-    <>
+    // main container
+    <div className="main-container">
       <Router>
         <Navbar />
+        {/* container for the pagess */}
         <div className="pages">
           <Switch>
             <Route exact path="/" component={Home} />
@@ -31,7 +33,7 @@ function App() {
         </div>
         <Footer />
       </Router>
-    </>
+    </div>
   );
 }
 

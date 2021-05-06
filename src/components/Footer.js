@@ -12,7 +12,7 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-links-container">
         <Link to="/about" className="footer-routes">
-          About
+          About Me
         </Link>
         <Link to="/references" className="footer-routes">
           References
