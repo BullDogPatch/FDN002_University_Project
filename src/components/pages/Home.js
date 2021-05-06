@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       <div className="container home-container">
-        <h2>Click on a link to go to that page</h2>
+        <h1>Click on a link to go to that page</h1>
         <Link to="/degree-subject" className="goto-page-links">
           My Degree Subject
         </Link>
