@@ -32,18 +32,3 @@ img .profile-pic {
 .about-page h2 {
   text-align: center;
 }
-
-.back-home-link {
-  margin: 100px;
-}
-
-.back-home-link a {
-  text-decoration: none;
-  color: #464747;
-  font-size: 1.8rem;
-}
-
-.back-home-link a:hover {
-  color: blue;
-  text-decoration: underline;
-}

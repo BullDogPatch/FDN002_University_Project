@@ -30,3 +30,27 @@ body {
   width: 80%;
   /* min-height: 100vh; */
 }
+
+.heading {
+  margin: 15px;
+  font-size: 3.3rem;
+}
+
+.back-home-link {
+  margin: 100px;
+}
+
+.back-home-link a {
+  text-decoration: none;
+  color: #464747;
+  font-size: 1.8rem;
+}
+
+.back-home-link a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.push {
+  height: 200px;
+}

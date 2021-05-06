@@ -2,11 +2,11 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/pages/Home";
-import UseCases from "./components/pages/UseCases";
+import UseCases from "./components/pages/UseCase/UseCases";
 import MyDegreeSubject from "./components/pages/MyDegreeSubject/MyDegreeSubject";
 import About from "./components/pages/About";
 import Footer from "./components/Footer";
-import ReferencesPage from "./components/pages/ReferencesPage";
+import ReferencesPage from "./components/pages/ReferencePage/ReferencesPage";
 import TechnicalChallenges from "./components/pages/TechnicalChallenges";
 import CV from "./components/pages/CV";
 
