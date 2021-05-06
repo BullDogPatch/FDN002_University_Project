@@ -17,6 +17,10 @@ body {
   position: relative;
 }
 
+p {
+  font-size: 1.3rem;
+}
+
 .pages {
   color: #464747;
   text-align: center;
