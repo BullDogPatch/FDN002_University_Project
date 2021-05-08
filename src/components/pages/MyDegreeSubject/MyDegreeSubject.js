@@ -1,5 +1,11 @@
-import PictureImage from "../PictureImage";
+import { lazy, Suspense } from "react";
+import Loading from "../Loading";
+
+import { Link } from "react-router-dom";
+
+// import PictureImage from "../PictureImage";
 import "./MyDegreeSubject.css";
+const PictureImage = lazy(() => import("../PictureImage"));
 
 const MyDegreeSubject = () => {
   return (
@@ -13,14 +19,17 @@ const MyDegreeSubject = () => {
             subject because I feel like the internet is probably the most
             important invention ever to happen to us humans.
           </p>
+
           <div>
-            {" "}
-            <PictureImage
-              src="https://img1.pnghut.com/12/22/25/gHswv5q0Qr/sitting-software-development-cartoon-information-technology-computer.jpg"
-              alt=""
-              width="400"
-              className="image"
-            />
+            <Suspense fallback={<Loading />}>
+              {" "}
+              <PictureImage
+                src="https://img1.pnghut.com/12/22/25/gHswv5q0Qr/sitting-software-development-cartoon-information-technology-computer.jpg"
+                alt=""
+                width="400"
+                className="image"
+              />
+            </Suspense>
           </div>
 
           <p>
@@ -30,22 +39,26 @@ const MyDegreeSubject = () => {
           </p>
           <p>Also getting to learn back end technologies like PHP and C#</p>
         </main>
-        <div className="img-container">
-          <PictureImage
-            src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg"
-            alt=""
-            width="300"
-            height="300"
-            className="image"
-          />
-          <PictureImage
-            src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg"
-            alt=""
-            width="300"
-            height="300"
-            className="image"
-          />
-        </div>
+
+        <Suspense fallback={<Loading />}>
+          <div className="img-container">
+            <PictureImage
+              src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg"
+              alt=""
+              width="300"
+              height="300"
+              className="image"
+            />
+
+            <PictureImage
+              src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg"
+              alt=""
+              width="300"
+              height="300"
+              className="image"
+            />
+          </div>
+        </Suspense>
 
         <div className="bottom-section">
           <p>
@@ -53,6 +66,12 @@ const MyDegreeSubject = () => {
             database design, database systems and security using programming
             languages such as PHP and MY SQL.
           </p>
+        </div>
+
+        <div className="back-home-link">
+          <Link exact to="/">
+            Back to Home
+          </Link>
         </div>
         {/* The empty div below is to use as spacing to help keep content from going behind the footer*/}
         <div className="push"></div>

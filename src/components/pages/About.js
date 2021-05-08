@@ -1,14 +1,20 @@
+import { lazy, Suspense } from "react";
 import { Link } from "react-router-dom";
 import "./About.css";
-import ProfilePic from "./PofilePic";
+
+const ProfilePic = lazy(() => import("./PofilePic"));
+// import ProfilePic from "./PofilePic";
+// // import ContactForm from '../ContactForm'
 
 const About = () => {
   return (
     <>
       <div className="about-page">
-        <div className="profile-pic-div">
-          <ProfilePic />
-        </div>
+        <Suspense fallback={<div>Loading...</div>}>
+          <div className="profile-pic-div">
+            <ProfilePic />
+          </div>
+        </Suspense>
 
         <div className="about-info-div">
           <h2>About Me</h2>{" "}
@@ -29,6 +35,7 @@ const About = () => {
           </p>
         </div>
       </div>
+
       <div className="back-home-link">
         <Link exact to="/">
           Back to Home

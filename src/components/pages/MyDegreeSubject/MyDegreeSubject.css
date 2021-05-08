@@ -1,12 +1,3 @@
-.heading {
-  margin: 15px;
-  font-size: 3.3rem;
-}
-
-p {
-  font-size: 1.7rem;
-}
-
 .img-container {
   margin: 0 auto;
   width: 100%;
@@ -16,10 +7,6 @@ p {
 .image {
   max-width: 100%;
   padding: 30px;
-}
-
-.push {
-  height: 200px;
 }
 
 @media screen and (max-width: 960px) {

@@ -1,3 +1,20 @@
 .useCase-heading {
   padding-bottom: 30px;
 }
+
+.useCases-container {
+  display: flex;
+  /* margin: auto; */
+}
+
+.useCase-one {
+  flex: 1;
+  /* width: 40%; */
+  margin: auto;
+}
+
+.useCase-two {
+  flex: 1;
+  /* width: 40%; */
+  margin: auto;
+}
