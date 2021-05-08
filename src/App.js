@@ -12,7 +12,7 @@ import CV from "./components/pages/CV";
 
 function App() {
   return (
-    // main container
+    // main container //
     <div className="main-container">
       <Router>
         <Navbar />
