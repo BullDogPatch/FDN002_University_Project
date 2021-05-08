@@ -1,6 +1,8 @@
 import { lazy, Suspense } from "react";
 import { Link } from "react-router-dom";
+
 import "./About.css";
+import Loading from "./Loading";
 
 const ProfilePic = lazy(() => import("./PofilePic"));
 // import ProfilePic from "./PofilePic";
@@ -10,7 +12,7 @@ const About = () => {
   return (
     <>
       <div className="about-page">
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<Loading />}>
           <div className="profile-pic-div">
             <ProfilePic />
           </div>
