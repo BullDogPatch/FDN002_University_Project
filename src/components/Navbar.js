@@ -21,17 +21,6 @@ const Navbar = () => {
           </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
-            {/* <li className="nav-item">
-              <NavLink
-                exact
-                to="/"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Home
-              </NavLink>
-            </li> */}
             <li className="nav-item">
               <NavLink
                 exact
@@ -63,6 +52,17 @@ const Navbar = () => {
                 onClick={handleClick}
               >
                 Technical Challenges
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/future-of-artificial-intel"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                The future of AI
               </NavLink>
             </li>
           </ul>

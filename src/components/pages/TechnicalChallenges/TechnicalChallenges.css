@@ -1,0 +1,21 @@
+.technical-challenge {
+  display: flex;
+  margin: 0 auto;
+}
+
+.technical-challenge p {
+  padding: 20px;
+  text-align: justify;
+}
+
+.technical-challenge-image {
+  margin: auto;
+}
+
+.technical h2 {
+  padding: 30px;
+}
+
+span {
+  font-weight: bold;
+}

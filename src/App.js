@@ -7,8 +7,9 @@ import MyDegreeSubject from "./components/pages/MyDegreeSubject/MyDegreeSubject"
 import About from "./components/pages/About";
 import Footer from "./components/Footer";
 import ReferencesPage from "./components/pages/ReferencePage/ReferencesPage";
-import TechnicalChallenges from "./components/pages/TechnicalChallenges";
+import TechnicalChallenges from "./components/pages/TechnicalChallenges/TechnicalChallenges";
 import CV from "./components/pages/CV";
+import FutureOfAi from "./components/pages/FutureOfAi/FutureOfAi";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
               path="/technical-challenges"
               component={TechnicalChallenges}
             />
+            <Route path="/future-of-artificial-intel" component={FutureOfAi} />
             <Route path="/cv" component={CV} />
           </Switch>
         </div>

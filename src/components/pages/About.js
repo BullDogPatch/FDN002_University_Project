@@ -1,5 +1,5 @@
 import { lazy, Suspense } from "react";
-import { Link } from "react-router-dom";
+import BackHomeLink from "../BackHomeLink";
 
 import "./About.css";
 import Loading from "./Loading";
@@ -38,11 +38,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="back-home-link">
-        <Link exact to="/">
-          Back to Home
-        </Link>
-      </div>
+      <BackHomeLink />
     </>
   );
 };
